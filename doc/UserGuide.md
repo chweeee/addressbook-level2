@@ -27,6 +27,7 @@ What's different from AddressBook-Level1:
 * Support for storing address (`a/`) and tags (`t/`)
 * Support for marking a contact detail as 'private' (`pa/`) (`pe/`) (`pp/`) 
 * View details of a person (`view` : shows non-private details), (`viewall` : shows all details)
+* Addition of sort function for list 
 
 ### Viewing help : `help`
 Format: `help`
@@ -56,6 +57,10 @@ Format: `list`
 ### Finding all persons containing any keyword in their name: `find`
 Finds persons whose names contain any of the given keywords.<br>
 Format: `find KEYWORD [MORE_KEYWORDS]`
+
+### Sorting the list of all persons : `sort`
+Sorts the list produced in the `list` command according to alphabetical order.<br>
+Format: `sort`
 
 > The search is case sensitive, the order of the keywords does not matter, only the name is searched, 
 and persons matching at least one keyword will be returned (i.e. `OR` search).
